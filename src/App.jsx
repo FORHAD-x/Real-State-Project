@@ -1,22 +1,21 @@
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import './App.css'
-import Companies from './Components/companies/Companies'
-import Header from './Components/header/Header'
-import Hero from './Components/hero/Hero'
-import Residencies from './Components/residencies/Residencies'
+import LayOutOne from './Components/Layout/LayOutOne'
+import Home from './pages/Home'
 
 
 function App() {
+  const myRoute = createBrowserRouter(createRoutesFromElements(
+    <Route>
+
+      <Route path='/' element={<LayOutOne/>}/>
+      <Route index element={<Home/>}/>
+
+    </Route>
+  ))
   return (
     <>
-     <div className="app">
-      <div>
-       <div className='white-gradient'/>
-        <Header/>
-        <Hero/>
-      </div>
-      <Companies/>
-      <Residencies/>
-     </div>
+    <RouterProvider router={myRoute}/>
     </>
   )
 }

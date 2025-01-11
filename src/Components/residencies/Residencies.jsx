@@ -31,7 +31,7 @@ const Residencies = () => {
                             </div>
                         </SwiperSlide>
                     ))
-                }
+            }
             </Swiper>
            
         </div>

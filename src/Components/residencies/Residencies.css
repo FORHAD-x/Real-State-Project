@@ -53,3 +53,11 @@ position: relative;
     background: #eeeeff;
     cursor: pointer;
 }
+@media (max-width:640px) {
+    .r-head{
+        align-items: center;
+    }
+    .r-button{
+        position: initial;
+    }
+}
