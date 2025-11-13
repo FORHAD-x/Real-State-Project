@@ -11,7 +11,7 @@ import Header from '../Components/header/Header'
 const Home = () => {
   return (
     <>
-     <div className="app">
+     <div id="Hero"  className="app">
       <div>
        <div className='white-gradient'/>
         <Header/>

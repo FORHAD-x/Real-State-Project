@@ -7,7 +7,7 @@ import "./Contact.css"
 const Contact = () => {
   return (
     <>
-    <section className='contact_wrapper'>
+    <section id="Contact" className='contact_wrapper'>
         <div className="contact-container paddings innerWidth flexCenter">
             {/* left-side */}
             <div className="contact-left flexColStart">

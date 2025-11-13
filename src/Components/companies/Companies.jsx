@@ -1,10 +1,10 @@
 import React from 'react'
-import "./companies.css"
+import "./Companies.css"
 
 const Companies = () => {
   return (
     <>
-    <section className='c-wrapper'>
+    <section  className='c-wrapper'>
 
         <div className="c-container paddings innerWidth flexCenter ">
           <img src="./prologis.png" alt="image" />

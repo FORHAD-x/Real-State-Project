@@ -18,12 +18,12 @@ const Header = () => {
             <img src="./logo.png" alt="logo" width={100} />
             <OutsideClickHandler onOutsideClick={()=>{setMenuOpened(false)}}>
                 <div style={getMenuStyle(MenuOpened)} className="flexCenter h-menu">
-                    <Link href="">Residencies</Link>
-                    <Link href="">Our Value</Link>
-                    <Link href="">Contact Us</Link>
-                    <Link href="">Get Started</Link>
+                    <a href="#Residencies">Residencies</a>
+                    <a href="#Value">Our Value</a>
+                    <a href="#Contact">Contact Us</a>
+                    <a href="#GetStarted">Get Started</a>
                     <button className='button'>
-                      <a href="">Contact</a>
+                      <a href="#Contact">Contact</a>
                     </button>
                 </div>
             </OutsideClickHandler>

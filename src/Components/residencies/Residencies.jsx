@@ -8,7 +8,7 @@ const Residencies = () => {
     
   return (
     <>
-    <section className='r-wrapper'>
+    <section id='Residencies' className='r-wrapper'>
         <div className="r-container paddings innerWidth">
             <div className="r-head flexColStart">
                <span className='orangeText'>Best Choices</span>
